@@ -8,15 +8,13 @@
 header{
     background-image: url("../img/jumbo.png");
     background-size: 100%;
-    background-color: #ADD8E6;
     padding-top: 25px;
+    padding-bottom: 200px;
 
 }
 
 body{
     font-family: 'Whitney', sans-serif;
-
-
 }
 
 .font{
@@ -28,7 +26,7 @@ body{
 
 
 
-
+/* * HEADER */
 
 .flexcontainer{
     display: flex;
@@ -38,30 +36,27 @@ body{
     margin: 0px auto;
 }
 
-
-.default-btn{
-    background-color: white;
-    border-radius: 100px;
-    padding: 10px;
-    color: black;
-    text-decoration: none;
+h1{
+    margin: 25px 0px;
+    font-size: 3em;
 
 }
-
 
 .col{
     width: calc(100% / 3);
 }
+nav{
+    text-align: center;
+}
 
 .col li{
-    display: inline-block;
-    border: 1px dashed black;
     color:white;
-
+    display: inline;
+    margin: 0 25px;
 }
 
 .flexcontainer :nth-child(2){
-    width: calc(100% / 1.5);
+    width: calc(100% / 1);
 }
 
 .footer-first{
@@ -70,14 +65,36 @@ body{
     width: 100%;
 }
 
-.pink{
-    color: white;
-    width: 800px;
-    height: 400px   ;
-    background-color: #EE82EE;
+.header-main{
     text-align: center;
+    color: white;
+}
+
+.header-main p{
+    border: 1px solid black;
+    font-size: 1.5em;
+}
+
+/* Bottoni */
+
+.default-btn{
+    padding: 10px 15px;
+    font-size: 1.25em   ;
+    background-color: white;
+    border-radius: 100px;
+    text-decoration: none;
 
 }
+
+.black-btn{
+    background-color: #23272A;
+    color: white;
+
+}
+
+/* TODO: MAIN */
+
+
 
 .container{
     width: 1000px;
