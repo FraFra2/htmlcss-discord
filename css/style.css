@@ -6,10 +6,29 @@
 }
 
 header{
+    background-image: url("../img/jumbo.png");
+    background-size: 100%;
     background-color: #ADD8E6;
     padding-top: 25px;
 
 }
+
+body{
+    font-family: 'Whitney', sans-serif;
+
+
+}
+
+.font{
+    font-family: 'Whitney', sans-serif;
+    font-family: 'Whitney Semibold', sans-serif;
+    font-family: 'Whitney Book', sans-serif;
+    font-family: 'Whitney Light', sans-serif;
+}
+
+
+
+
 
 .flexcontainer{
     display: flex;
@@ -17,13 +36,27 @@ header{
     align-items: center;
     width: 1000px;
     margin: 0px auto;
-    background-color: #DAA520;
 }
+
+
+.default-btn{
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+
+}
+
 
 .col{
     width: calc(100% / 3);
-    border: 2px dashed black;
-    padding: 10px;
+}
+
+.col li{
+    display: inline-block;
+    border: 1px dashed black;
+    color:white;
 
 }
 
@@ -31,27 +64,18 @@ header{
     width: calc(100% / 1.5);
 }
 
-.col ul{
- list-style: none;
-
-
-}
-
-.col ul li{
-    display: inline-block;
-}
-
 .footer-first{
     margin-top: 50px;
     padding: 25px 0px;
     width: 100%;
-    background-color: darkblue;
 }
 
 .pink{
+    color: white;
     width: 800px;
     height: 400px   ;
     background-color: #EE82EE;
+    text-align: center;
 
 }
 
